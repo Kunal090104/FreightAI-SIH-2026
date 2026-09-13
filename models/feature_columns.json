@@ -1,0 +1,18 @@
+{
+  "feature_columns": [
+    "lag_1",
+    "lag_7",
+    "lag_14",
+    "lag_30",
+    "rolling_mean_7",
+    "rolling_mean_14",
+    "rolling_mean_30",
+    "rolling_std_7",
+    "rolling_std_30",
+    "month",
+    "quarter",
+    "day_of_week"
+  ],
+  "target_column": "freight_rate",
+  "date_column": "date"
+}

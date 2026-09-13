@@ -1,0 +1,11 @@
+pandas>=1.5
+numpy>=1.23
+scikit-learn>=1.2
+joblib>=1.2
+streamlit>=1.32   # st.container(border=...) used on the Risk Analysis page requires >=1.32
+plotly>=5.18
+
+# Optional — the forecasting module detects these at runtime and skips the
+# corresponding model gracefully if they're not installed.
+xgboost>=1.7        # optional: enables the XGBoost candidate model
+#tensorflow>=2.12     # optional: enables the LSTM candidate model (also requires enough training data)

@@ -1,0 +1,107 @@
+{
+  "generated_at": "2026-09-11T12:35:51.245312+00:00",
+  "selected_model": "linear_regression",
+  "selection_criterion": "lowest validation MAE",
+  "split_sizes": {
+    "train": 1931,
+    "validation": 414,
+    "test": 414
+  },
+  "metrics": {
+    "moving_average_baseline": {
+      "train": {
+        "mae": 94.2742,
+        "rmse": 141.9677,
+        "mape": 6.5163,
+        "r2": 0.9732,
+        "n_samples": 1931
+      },
+      "validation": {
+        "mae": 125.3709,
+        "rmse": 175.1615,
+        "mape": 8.308,
+        "r2": 0.8631,
+        "n_samples": 414
+      },
+      "test": {
+        "mae": 101.3644,
+        "rmse": 127.636,
+        "mape": 6.1906,
+        "r2": 0.9078,
+        "n_samples": 414
+      }
+    },
+    "linear_regression": {
+      "train": {
+        "mae": 25.9481,
+        "rmse": 41.268,
+        "mape": 1.7654,
+        "r2": 0.9977,
+        "n_samples": 1931
+      },
+      "validation": {
+        "mae": 38.2538,
+        "rmse": 57.0833,
+        "mape": 2.4407,
+        "r2": 0.9855,
+        "n_samples": 414
+      },
+      "test": {
+        "mae": 36.031,
+        "rmse": 49.7673,
+        "mape": 2.118,
+        "r2": 0.986,
+        "n_samples": 414
+      }
+    },
+    "random_forest": {
+      "train": {
+        "mae": 19.3118,
+        "rmse": 30.8688,
+        "mape": 1.356,
+        "r2": 0.9987,
+        "n_samples": 1931
+      },
+      "validation": {
+        "mae": 47.0688,
+        "rmse": 66.8984,
+        "mape": 2.9989,
+        "r2": 0.98,
+        "n_samples": 414
+      },
+      "test": {
+        "mae": 40.1025,
+        "rmse": 55.9042,
+        "mape": 2.3909,
+        "r2": 0.9823,
+        "n_samples": 414
+      }
+    },
+    "xgboost": {
+      "train": {
+        "mae": 10.3786,
+        "rmse": 14.0845,
+        "mape": 0.8631,
+        "r2": 0.9997,
+        "n_samples": 1931
+      },
+      "validation": {
+        "mae": 48.1964,
+        "rmse": 69.8743,
+        "mape": 3.1081,
+        "r2": 0.9782,
+        "n_samples": 414
+      },
+      "test": {
+        "mae": 41.7568,
+        "rmse": 57.7115,
+        "mape": 2.4803,
+        "r2": 0.9812,
+        "n_samples": 414
+      }
+    }
+  },
+  "skipped_models": {
+    "lstm": "tensorflow/keras is not installed \u2014 skipped."
+  }
+}

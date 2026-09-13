@@ -1,0 +1,51 @@
+origin_country,origin,destination,distance_nm,source,distance_basis
+Australia,Port Hedland,Paradip,3224.39,NGA WPI + SeaRoute,maritime route
+Australia,Port Hedland,Visakhapatnam,3252.1,NGA WPI + SeaRoute,maritime route
+Australia,Port Hedland,Gangavaram,3252.1,NGA WPI + SeaRoute,maritime route
+Australia,Port Hedland,Gopalpur,3332.13,NGA WPI + SeaRoute,maritime route
+Australia,Port Hedland,Dhamra,3224.39,NGA WPI + SeaRoute,maritime route
+Australia,Newcastle,Paradip,5668.84,NGA WPI + SeaRoute,maritime route
+Australia,Newcastle,Visakhapatnam,5696.55,NGA WPI + SeaRoute,maritime route
+Australia,Newcastle,Gangavaram,5696.55,NGA WPI + SeaRoute,maritime route
+Australia,Newcastle,Gopalpur,5776.59,NGA WPI + SeaRoute,maritime route
+Australia,Newcastle,Dhamra,5668.84,NGA WPI + SeaRoute,maritime route
+Australia,Hay Point,Paradip,4899.0,NGA WPI + SeaRoute,maritime route
+Australia,Hay Point,Visakhapatnam,4926.71,NGA WPI + SeaRoute,maritime route
+Australia,Hay Point,Gangavaram,4926.71,NGA WPI + SeaRoute,maritime route
+Australia,Hay Point,Gopalpur,5006.75,NGA WPI + SeaRoute,maritime route
+Australia,Hay Point,Dhamra,4899.0,NGA WPI + SeaRoute,maritime route
+Australia,Gladstone,Paradip,5073.55,NGA WPI + SeaRoute,maritime route
+Australia,Gladstone,Visakhapatnam,5101.26,NGA WPI + SeaRoute,maritime route
+Australia,Gladstone,Gangavaram,5101.26,NGA WPI + SeaRoute,maritime route
+Australia,Gladstone,Gopalpur,5181.3,NGA WPI + SeaRoute,maritime route
+Australia,Gladstone,Dhamra,5073.55,NGA WPI + SeaRoute,maritime route
+Indonesia,Balikpapan,Paradip,2625.95,NGA WPI + SeaRoute,maritime route
+Indonesia,Balikpapan,Visakhapatnam,2653.65,NGA WPI + SeaRoute,maritime route
+Indonesia,Balikpapan,Gangavaram,2653.65,NGA WPI + SeaRoute,maritime route
+Indonesia,Balikpapan,Gopalpur,2733.69,NGA WPI + SeaRoute,maritime route
+Indonesia,Balikpapan,Dhamra,2625.95,NGA WPI + SeaRoute,maritime route
+Indonesia,Samarinda,Paradip,2692.04,NGA WPI + SeaRoute,maritime route
+Indonesia,Samarinda,Visakhapatnam,2719.75,NGA WPI + SeaRoute,maritime route
+Indonesia,Samarinda,Gangavaram,2719.75,NGA WPI + SeaRoute,maritime route
+Indonesia,Samarinda,Gopalpur,2799.78,NGA WPI + SeaRoute,maritime route
+Indonesia,Samarinda,Dhamra,2692.04,NGA WPI + SeaRoute,maritime route
+Mozambique,Beira,Paradip,4384.81,NGA WPI + SeaRoute,maritime route
+Mozambique,Beira,Visakhapatnam,4130.04,NGA WPI + SeaRoute,maritime route
+Mozambique,Beira,Gangavaram,4130.04,NGA WPI + SeaRoute,maritime route
+Mozambique,Beira,Gopalpur,4210.08,NGA WPI + SeaRoute,maritime route
+Mozambique,Beira,Dhamra,4384.81,NGA WPI + SeaRoute,maritime route
+Mozambique,Nacala,Paradip,3879.44,NGA WPI + SeaRoute,maritime route
+Mozambique,Nacala,Visakhapatnam,3624.67,NGA WPI + SeaRoute,maritime route
+Mozambique,Nacala,Gangavaram,3624.67,NGA WPI + SeaRoute,maritime route
+Mozambique,Nacala,Gopalpur,3704.7,NGA WPI + SeaRoute,maritime route
+Mozambique,Nacala,Dhamra,3879.44,NGA WPI + SeaRoute,maritime route
+Russia,Vostochny,Paradip,4612.49,NGA WPI + SeaRoute,maritime route
+Russia,Vostochny,Visakhapatnam,4640.2,NGA WPI + SeaRoute,maritime route
+Russia,Vostochny,Gangavaram,4640.2,NGA WPI + SeaRoute,maritime route
+Russia,Vostochny,Gopalpur,4720.23,NGA WPI + SeaRoute,maritime route
+Russia,Vostochny,Dhamra,4612.49,NGA WPI + SeaRoute,maritime route
+Russia,Vanino,Paradip,5109.41,NGA WPI + SeaRoute,maritime route
+Russia,Vanino,Visakhapatnam,5137.12,NGA WPI + SeaRoute,maritime route
+Russia,Vanino,Gangavaram,5137.12,NGA WPI + SeaRoute,maritime route
+Russia,Vanino,Gopalpur,5217.16,NGA WPI + SeaRoute,maritime route
+Russia,Vanino,Dhamra,5109.41,NGA WPI + SeaRoute,maritime route

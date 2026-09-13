@@ -1,0 +1,305 @@
+/* =========================================================
+   FREIGHTAI GLOBAL THEME
+   ========================================================= */
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+
+/* ---------- Color System ---------- */
+
+:root {
+    --cream: #F5EBDD;
+    --coral: #F2765E;
+    --blue: #315B8C;
+    --brown: #413333;
+    --brown-2: #604D49;
+    --ink: #2D2323;
+    --muted: #806F69;
+    --line: #E3D4C7;
+    --paper: #FFFDF9;
+
+    --blue-pale: #EAF1F8;
+    --coral-pale: #FCE9E4;
+
+    --green: #3C7147;
+    --green-pale: #F2FAF3;
+}
+
+
+/* ---------- Main App ---------- */
+
+.stApp {
+    background: var(--cream) !important;
+}
+
+html,
+body,
+[class*="css"] {
+    font-family: "DM Sans", sans-serif;
+}
+
+
+/* ---------- Headings ---------- */
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Space Grotesk", sans-serif !important;
+    color: var(--brown) !important;
+}
+
+
+/* ---------- Main Text ---------- */
+
+section[data-testid="stMain"] {
+    color: var(--brown) !important;
+}
+
+section[data-testid="stMain"] p,
+section[data-testid="stMain"] li,
+section[data-testid="stMain"] span,
+section[data-testid="stMain"] label {
+    color: var(--brown);
+}
+
+
+/* ---------- Captions ---------- */
+
+section[data-testid="stMain"]
+[data-testid="stCaptionContainer"],
+section[data-testid="stMain"]
+[data-testid="stCaptionContainer"] p {
+    color: var(--muted) !important;
+}
+
+
+/* ---------- Metrics ---------- */
+
+section[data-testid="stMain"]
+[data-testid="stMetric"] {
+
+    background: var(--paper) !important;
+
+    border: 1px solid var(--line) !important;
+
+    border-radius: 14px !important;
+
+    padding: 18px 20px !important;
+
+    min-height: 105px !important;
+
+    box-shadow:
+        0 4px 14px rgba(65, 51, 51, 0.06) !important;
+}
+
+section[data-testid="stMain"]
+[data-testid="stMetricLabel"] {
+    color: var(--muted) !important;
+
+    font-weight: 700 !important;
+}
+
+section[data-testid="stMain"]
+[data-testid="stMetricValue"] {
+    color: var(--brown) !important;
+
+    font-family: "Space Grotesk", sans-serif !important;
+
+    font-weight: 700 !important;
+}
+
+section[data-testid="stMain"]
+[data-testid="stMetricDelta"] {
+    color: var(--blue) !important;
+}
+
+
+/* ---------- Buttons ---------- */
+
+.stButton button {
+    border-radius: 8px;
+    font-weight: 600;
+}
+
+
+/* ---------- Dataframes ---------- */
+
+[data-testid="stDataFrame"] {
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+
+/* ---------- Divider ---------- */
+
+hr {
+    border-color: var(--line);
+}
+/* =========================================================
+   FINAL RECOMMENDATION CARD
+   ========================================================= */
+
+.recommendation-card {
+    border: 2px solid #2563eb;
+    border-radius: 14px;
+    padding: 20px;
+    margin-top: 15px;
+    background: rgba(37, 99, 235, 0.05);
+}
+
+.recommendation-title {
+    margin-top: 0;
+    margin-bottom: 18px;
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+.recommendation-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(100, 116, 139, 0.2);
+}
+
+.recommendation-row:last-child {
+    border-bottom: none;
+}
+
+.recommendation-label {
+    font-weight: 600;
+}
+
+.recommendation-value {
+    text-align: right;
+}
+/* =========================================================
+   DATA SOURCES
+   ========================================================= */
+
+.data-sources-card {
+    margin-top: 15px;
+    padding: 18px;
+    border: 1px solid rgba(100, 116, 139, 0.25);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.data-sources-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.data-sources-subtitle {
+    font-size: 0.82rem;
+    margin-bottom: 14px;
+    opacity: 0.7;
+}
+
+.data-source-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 9px 0;
+    border-bottom: 1px solid rgba(100, 116, 139, 0.15);
+}
+
+.data-source-row:last-child {
+    border-bottom: none;
+}
+
+.data-source-field {
+    font-weight: 600;
+}
+
+.data-source-value {
+    font-family: monospace;
+    font-size: 0.85rem;
+    opacity: 0.8;
+}
+
+.data-source-empty {
+    opacity: 0.7;
+    font-size: 0.9rem;
+}
+/* =========================================================
+   CHARTER DECISION FACTORS
+   ========================================================= */
+
+.decision-factors-card {
+    margin-top: 15px;
+    padding: 18px;
+    border: 1px solid rgba(100, 116, 139, 0.25);
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.7);
+}
+
+.decision-factors-title {
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+.decision-factors-subtitle {
+    font-size: 0.82rem;
+    margin-bottom: 14px;
+    opacity: 0.7;
+}
+
+.decision-factor-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding: 9px 0;
+    border-bottom: 1px solid rgba(100, 116, 139, 0.15);
+}
+
+.decision-factor-row:last-child {
+    border-bottom: none;
+}
+
+.decision-factor-label {
+    font-weight: 600;
+}
+
+.decision-factor-value {
+    font-family: monospace;
+    font-size: 0.85rem;
+    text-align: right;
+}
+/* =========================================================
+   DASHBOARD METRIC CARDS
+   ========================================================= */
+
+[data-testid="stMetric"] {
+    background: rgba(255, 255, 255, 0.78);
+    border: 1px solid rgba(100, 116, 139, 0.22);
+    border-radius: 14px;
+    padding: 18px 20px;
+    min-height: 115px;
+    box-shadow: 0 3px 12px rgba(15, 23, 42, 0.06);
+}
+
+[data-testid="stMetricLabel"] {
+    font-weight: 600;
+}
+
+[data-testid="stMetricValue"] {
+    font-weight: 750;
+}
+/* =========================================================
+   DASHBOARD SECONDARY CARDS
+   ========================================================= */
+
+[data-testid="stVerticalBlockBorderWrapper"] {
+    border-radius: 14px;
+}
+
+[data-testid="stVerticalBlockBorderWrapper"] [data-testid="stVerticalBlock"] {
+    min-height: 125px;
+}
